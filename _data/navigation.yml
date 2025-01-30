@@ -1,11 +1,12 @@
 main:
   - title: "Posts"
     url: /posts/
+  - title: "DLN"
+    url: /DLN/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "About"
     url: /about/
-  - title: "DLN"
-    url: /DLN/
+ 
