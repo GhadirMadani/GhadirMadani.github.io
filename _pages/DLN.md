@@ -1,6 +1,10 @@
 ---
 permalink: /DLN/
 title: "Digital Literacy Narrative"
+author_profile: false
+toc: true
+toc_label: "DLN"
+toc_sticky: true
 ---
 
 ## Digital Literacy Narrative 1
@@ -21,3 +25,7 @@ Despite my growing proficiency in digital research tools, I recognize gaps in my
 Additionally, I want to explore the ethical dimensions of digital work. How do biases in AI systems shape the way information is processed and disseminated? How can we ensure that digital tools do not reinforce systemic inequalities in academia and beyond? Digital literacy is not just about technical proficiency but about developing a critical lens through which to evaluate digital systems and their impact on society.
 ### Conclusion
 As I continue my journey through university, I am excited to deepen my engagement with digital humanities and computational thinking. Digital literacy is not a static skill set but an evolving practice that requires constant learning and adaptation. By embracing interdisciplinary collaboration, critically reflecting on digital tools, and exploring new ways of approaching data, I hope to cultivate a digital fluency that is both technically sound and ethically informed. The liberal arts, with their emphasis on holistic learning, provide the perfect environment for this exploration—one where the humanities and technology do not stand in opposition but work together to enrich our understanding of the world.
+
+## Digital Literacy 2
+
+## Digital Literacy 3
