@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1"
-date: 2025-02-03
+date: 2025-03-02
 categories:
   - Blog
 tags:
@@ -21,6 +21,7 @@ We conducted a computational analysis using R Markdown, generating four key visu
 <img src="{{site.baseurl}}/assets/images/Image3.png">
 
 ### Analysis and Findings
+
 #### Voyant Tools Analysis
 For the first part of the analysis, we used Voyant Tools to explore the language in *A Vindication of the Rights of Woman*, *The Second Sex*, and *Ain’t I a Woman*. We looked at word frequency, common phrases, and how key terms are linked to see how each author discussed gender, oppression, and womanhood. In the visualizations, the key terms appear in blue, with larger words representing the most frequently used terms in each text. Additionally, the thicker the line connecting two words, the stronger their relationship, meaning they often appear together in the text. This helped us track changes in feminist thought over time. For example, Wollstonecraft often focused on reason, Beauvoir on otherness, and Hooks on race and intersectionality. By studying these connections, we gained insight into how feminist ideas have evolved across different historical periods.
 
