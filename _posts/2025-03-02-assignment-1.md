@@ -55,11 +55,11 @@ This process also made us more aware of the limitations of computational text an
 Our analysis of *A Vindication of the Rights of Woman*, *The Second Sex*, and *Ain’t I a Woman* gave us a deeper understanding of how feminist ideas have changed over time. By using Voyant Tools and R Markdown, we were able to see patterns in how each author talks about womanhood. While these tools helped highlight key themes and trends, they also showed the limits of distant reading, since word frequency alone can’t fully capture meaning without context. 
 
 ### Refrences
-Beauvoir, Simone de. *The Second Sex*. Translated by Constance Borde and Sheila Malovany-Chevallier, Vintage, 2011.
-hooks, bell. *Ain’t I a Woman: Black Women and Feminism*. South End Press, 1981.
-Moi, Toril. *Simone de Beauvoir: The Making of an Intellectual Woman*. Oxford UP, 2008.
-Wollstonecraft, Mary. *A Vindication of the Rights of Woman*. Edited by Janet Todd, Oxford UP, 2008.
-Rockwell, Geoffrey, and Stefan Sinclair. *False Positives: Opportunities and Dangers in Big-Data Text Analysis*. Hermeneutica, 2016, p. 113.
-Kirmizialtin, Suphan, and David Joseph Wrisley. *Exploring Gulf Manumission Documents with Word Vectors*. Journal of Digital Islamicate Research, vol. 2, 2024, pp. 1–29.
+1. Beauvoir, Simone de. *The Second Sex*. Translated by Constance Borde and Sheila Malovany-Chevallier, Vintage, 2011.
+2. hooks, bell. *Ain’t I a Woman: Black Women and Feminism*. South End Press, 1981.
+3. Moi, Toril. *Simone de Beauvoir: The Making of an Intellectual Woman*. Oxford UP, 2008.
+4. Wollstonecraft, Mary. *A Vindication of the Rights of Woman*. Edited by Janet Todd, Oxford UP, 2008.
+5. Rockwell, Geoffrey, and Stefan Sinclair. *False Positives: Opportunities and Dangers in Big-Data Text Analysis*. Hermeneutica, 2016, p. 113.
+6. Kirmizialtin, Suphan, and David Joseph Wrisley. *Exploring Gulf Manumission Documents with Word Vectors*. Journal of Digital Islamicate Research, vol. 2, 2024, pp. 1–29.
 
 
