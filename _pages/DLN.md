@@ -26,7 +26,7 @@ Additionally, I want to explore the ethical dimensions of digital work. How do b
 ### Conclusion
 As I continue my university journey, I’m excited to deepen my engagement with digital humanities and computational thinking. Digital literacy isn’t a fixed skill, it evolves as new technologies emerge and as our needs change. By collaborating across disciplines, questioning digital tools, and exploring new ways of interacting with data, I hope to develop a fluency that is both technically proficient and critically aware. The liberal arts, with their emphasis on interdisciplinary learning, provide the perfect space for this exploration, where technology and the humanities don’t just coexist, but actively inform and enrich one another.
 
-## Digital Literacy 2
+## Digital Literacy Narrative 2
 
 ### Reflections on Digital Literacy: A University Student’s Perspective
 As a 19-year-old university student at NYUAD, I’ve experienced digital literacy through different academic lenses. I initially started as a Biology major, where my engagement with digital tools revolved around data analysis, research databases, and lab simulations. Now, as an Interactive Media (IM) major, my relationship with technology has shifted toward creative coding, user interface design, digital storytelling, 3D modeling and more. This shift has taught me that digital literacy isn’t just about knowing how to use a software; it’s about learning to think critically with technology, ask questions, and use digital tools in meaningful ways. 
