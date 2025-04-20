@@ -121,9 +121,10 @@ In the inbound map (to Zanzibar), strong and repeated routes came from **Pemba**
 
 This method made it easier to pick up on both the **regional rhythm** of short-haul traffic and the **long-distance colonial trade links**. It also helped spot imbalances — for example, some ports had frequent incoming ships but fewer outgoing ones, and vice versa.
 
-####za Example Maps:
-<img src="/assets/zanzibar_arrivals.png" style="zoom:50%"/>
-<img src="/assets/zanzibar_departures.png" style="zoom:50%"/>
+#### Example Maps:
+<img src="{{site.baseurl}}/assets/images/zanzibar_arrivals.png">
+<img src="{{site.baseurl}}/assets/images/zanzibar_departures.png">
+
 
 
 
