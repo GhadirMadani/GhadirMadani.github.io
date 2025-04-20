@@ -135,6 +135,23 @@ Arc thickness indicates the frequency of arrivals from each port — thicker arc
 **Figure 2: Ships departing from Zanzibar between January and March 1913**  
 This map visualizes outbound movements from the port of Zanzibar. Thicker arcs represent routes that were used more often, such as repeated trips to Pemba, Bombay, and Durban.
 
+### 6. Critical Reflection: GenAI and Colonial Archives
+
+Working with generative AI tools made this project faster and more manageable — but it also raised questions about what it means to extract, automate, and visualize data from a colonial archive like the Zanzibar Gazette.
+
+The article *Provocations from the Humanities for Generative AI Research* argues that AI systems inherit the assumptions and structures of the materials they’re trained on. In this case, I was using AI to extract structured data from a bureaucratic source that was already shaped by the colonial mindset. The Gazette only recorded what the British administration considered important — ship names, tonnage, nationalities — but said nothing about the people on board, the labor involved, or the impact of this movement on local communities and economies.
+
+GenAI tools like ChatGPT helped me organize and map that structure, but they also reinforced it. The shipping records start to look “clean” and “complete” once visualized — but what’s missing is just as important. There are no records of African sailors, no information about goods or cargo, and no sense of resistance or complexity. In this way, AI risks making the archive look more neutral and objective than it really is.
+
+At the same time, thick mapping helped me see new layers of meaning. It showed how often ships moved between Zanzibar and certain key ports — not just as individual events, but as patterns of repetition, control, and extraction. It also made me think about the gaps: why do some ports only appear once? Why are others repeated every week?
+
+This reflection reminded me that using AI in the humanities isn’t just about speed or automation — it’s also about asking better questions, being aware of what's left out, and understanding how digital tools can both reveal and erase historical meaning.
+
+## 7. Dataset and Visuals
+
+The full dataset used for this project includes 127 rows of cleaned and geocoded shipping data extracted from the Zanzibar Gazette, covering the period between January and March 1913.
+
+📂 **[Click here to view the full dataset (CSV)](/assets/shipping_data_zanzibar_1913.csv)**
 
 
 
