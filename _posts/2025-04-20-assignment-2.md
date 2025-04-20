@@ -151,7 +151,8 @@ This reflection reminded me that using AI in the humanities isn’t just about s
 
 The full dataset used for this project includes 127 rows of cleaned and geocoded shipping data extracted from the Zanzibar Gazette, covering the period between January and March 1913.
 
-📂 **[Click here to view the full dataset (CSV)](/assets/shipping_data_zanzibar_1913.csv)**
+**[Click here to view the full dataset for the arricals (CSV)](/assets/assignment2_From.csv)**
+**[Click here to view the full dataset for the arricals (CSV)](/assets/assignment2_To.csv)**
 
 
 
