@@ -111,6 +111,9 @@ Finally, I created two sets of coordinates for each ship entry: one for where th
 | Batoum                 | Georgia (Black Sea)       | 41.6500    | 41.6333     |
 | Aroebay (approx.)      | Indonesia region          | -5.5000    | 132.2500    |
 
+**Table 1: Port Coordinates Reference Table**  
+A manually compiled list of all ports mentioned in the dataset, matched to their approximate modern-day latitude and longitude. These values were used to geocode each ship route for mapping. In cases where the port name was vague or historical (e.g. “South,” “Europe,” or “Benadir Coast”), a central location was selected based on historical context.
+
 ### 5. Visualization & Insights
 
 After completing the dataset, I visualized the ship movements using [kepler.gl](https://kepler.gl), splitting the routes into two separate views: **ships arriving in Zanzibar** and **ships departing from Zanzibar**. This approach helped me clearly distinguish inbound and outbound maritime traffic and better understand the directionality of trade.
@@ -123,8 +126,14 @@ This method made it easier to pick up on both the **regional rhythm** of short-h
 
 #### Example Maps:
 <img src="{{site.baseurl}}/assets/images/zanzibar_arrivals.png">
+
+**Figure 1: Ships arriving in Zanzibar between January and March 1913**  
+Arc thickness indicates the frequency of arrivals from each port — thicker arcs show heavily trafficked routes, especially from regional ports like Pemba, Bombay, and Dar-es-Salam.
+
 <img src="{{site.baseurl}}/assets/images/zanzibar_departures.png">
 
+**Figure 2: Ships departing from Zanzibar between January and March 1913**  
+This map visualizes outbound movements from the port of Zanzibar. Thicker arcs represent routes that were used more often, such as repeated trips to Pemba, Bombay, and Durban.
 
 
 
