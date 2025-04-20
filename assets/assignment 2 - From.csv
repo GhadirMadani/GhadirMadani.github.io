@@ -1,0 +1,128 @@
+Date (Arr.),Date (Dep.),Ship Name,Tons,Nationality,From,Bound To,From lat,From long,To lat,To long
+Nov. 12,—,Meyun,174,British,Perim,Is still in harbour,12.6497,43.4067,-6.1659,39.2026
+Dec. 16,Dec. 31,Barawa,165,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Dec. 27,Jan. 21,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Dec. 28,Dec. 31,Somali,1623,German,Mombasa,Dar-es-Salam,-4.0435,39.6682,-6.1659,39.2026
+Dec. 30,Jan. 6,Purnea,2127,British,Aden,Aden,12.7855,45.0187,-6.1659,39.2026
+Dec. 30,Dec. 30,Rhenania,4056,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Dec. 31,Jan. 2,Kilwa,161,British,Kismayu,Kismayu,-0.3582,42.5454,-6.1659,39.2026
+Jan. 1,Jan. 1,Feldmarschall,3819,German,Europe,Dar-es-Salam,48.8566,2.3522,-6.1659,39.2026
+Jan. 1,Jan. 3,Koenig,3048,German,D'Salam,Bombay,-6.7924,39.2083,-6.1659,39.2026
+Jan. 3,Jan. 3,Oxus,2269,French,Madagascar,Marseilles,-18.8792,47.5079,-6.1659,39.2026
+Jan. 3,Jan. 5,Palamcotta,2208,British,South,Bombay,-20.3484,57.5522,-6.1659,39.2026
+Jan. 3,Jan. 3,Kiugani,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Jan. 3,Jan. 7,Barawa,165,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Jan. 4,Jan. 6,Praesident,2069,German,Bombay,Dar-es-Salam,18.9388,72.8354,-6.1659,39.2026
+Jan. 5,Jan. 6,Goorkha,3839,British,London,South,51.5072,-0.1276,-6.1659,39.2026
+Jan. 6,Jan. 7,Kaiser Wilhelm II,97,German,D'Salam,Mombasa,-6.7924,39.2083,-6.1659,39.2026
+Jan. 7,Feb. 22,Duplex,434,British,Mombasa,Aden,-4.0435,39.6682,-6.1659,39.2026
+Jan. 9,Jan. 11,Wissmann,183,British,Benadir,Benadir,2.0469,45.3182,-6.1659,39.2026
+Jan. 9,Jan. 13,Arvo Castle,2869,British,New York,Diamond Island,40.7128,-74.006,-6.1659,39.2026
+Jan. 9,Jan. 10,Kiugani,25,German,Tanga,Dar-es-Salam,-5.0689,39.1024,-6.1659,39.2026
+Jan. 10,Jan. 12,Praesident,2069,German,Tanga,Bombay,-5.0689,39.1024,-6.1659,39.2026
+Jan. 10,Jan. 14,Barawa,165,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Jan. 11,Jan. 12,Pentakota,2209,British,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Jan. 11,Jan. 12,Admiral,3696,German,South,Dar-es-Salam,-20.3484,57.5522,-6.1659,39.2026
+Jan. 12,Jan. 12,Adour,2348,French,Marseilles,Madagascar,43.2965,5.3698,-6.1659,39.2026
+Jan. 12,Mar. 19,Khalifa,300,Zanzibar,London,Pemba,51.5072,-0.1276,-6.1659,39.2026
+Jan. 12,Jan. 13,Kiugani ,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Jan. 14,Jan. 14,Admiral,3696,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Jan. 14,Jan. 15,Kaiser Wilhelm II,97,German,Mombasa,Dar-es-Salam,-4.0435,39.6682,-6.1659,39.2026
+Jan. 14,Jan. 17,Kilwa,161,British,Kismayu,Kismayu,-0.3582,42.5454,-6.1659,39.2026
+Jan. 16,Jan. 17,Markgraf,2228,German,Bombay,Dar-es-Salam,18.9388,72.8354,-6.1659,39.2026
+Jan. 16,Jan. 17,Goth,2974,British,London,London,51.5072,-0.1276,-6.1659,39.2026
+Jan. 17,Feb. 15,Barawa,165,Zanzibar,Pemba,Aden,-5.2452,39.81,-6.1659,39.2026
+Jan. 19,Jan. 19,Adolph Woermann,3903,German,Europe,Dar-es-Salam,48.8566,2.3522,-6.1659,39.2026
+Jan. 19,Jan. 21,Tevere,1569,Italian,Genoa,Europe,44.4056,8.9463,-6.1659,39.2026
+Jan. 19,Jan. 19,Markgraf,2228,German,D'Salam,South,-6.7924,39.2083,-6.1659,39.2026
+Jan. 23,Jan. 25,Pundua,2126,British,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Jan. 23,Jan. 24,Clan Chisholm,1681,British,Birkenhead,Beira,53.3925,-3.0128,-6.1659,39.2026
+Jan. 24,Jan. 28,A. Woermann ,3903,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Jan. 24,Jan. 26,Kiugani,25,German,Tanga,Dar-es-Salam,-5.0689,39.1024,-6.1659,39.2026
+Jan. 24,Jan. 27,Wissmann,183,British,Mogalisho,Benadir,2.0469,45.3182,-6.1659,39.2026
+Jan. 24,Jan. 28,Cupid ,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Jan. 25,Jan. 28,Kanzler,1840,German,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Jan. 26,Jan. 26,Oceanien,2536,French,Marseilles,Madagascar,43.2965,5.3698,-6.1659,39.2026
+Jan. 27,Jan. 27,Goorkha,3839,British,South,London,-20.3484,57.5522,-6.1659,39.2026
+Jan. 27,Feb. 3,Purnea,2127,British,Aden,Aden,12.7855,45.0187,-6.1659,39.2026
+Jan. 27,Jan. 28,Emir,3440,German,Europe,Durban,48.8566,2.3522,-6.1659,39.2026
+Jan. 27,Jan. 27,Kiugani,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Jan. 29,Feb. 1,Kilwa,161,British,Kismayu,Dar-es-Salam,-0.3582,42.5454,-6.1659,39.2026
+Jan. 29,Jan. 30,Umtala,1663,British,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Jan. 30,Jan. 30,Adolph Woermann,3903,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Jan. 30,Jan. 30,General,4541,German,Europe,Dar-es-Salam,48.8566,2.3522,-6.1659,39.2026
+Jan. 30,Jan. 31,Rouvuma,55,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Jan. 31,Jan. 31,Natal,2450,French,Madagascar,Marseilles,-18.8792,47.5079,-6.1659,39.2026
+Jan. 31,Feb. 4,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Jan. 31,Feb. 1,Pentakota,2209,British,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Feb. 1,Feb. 1,Gaika,3975,British,London,Durban,51.5072,-0.1276,-6.1659,39.2026
+Feb. 2,Feb. 4,General,4541,German,D'Salam,South,-6.7924,39.2083,-6.1659,39.2026
+Feb. 3,Feb. 4,Kiugani,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Feb. 4,Feb. 5,Koenig,3048,German,Bombay,Tanga,18.9388,72.8354,-6.1659,39.2026
+Feb. 5,Feb. 7,Clan Chisholm,1681,British,Beira,Liverpool,-19.836,34.85,-6.1659,39.2026
+Feb. 6,Feb. 7,Palamcotta,2208,British,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Feb. 7,Feb. 11,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Feb. 9,Feb. 11,Wissmann,183,British,Mogalisho,Aden,2.0469,45.3182,-6.1659,39.2026
+Feb. 10,Feb. 11,Koenig,3048,German,D'Salam,Bombay,-6.7924,39.2083,-6.1659,39.2026
+Feb. 11,Feb. 12,Answald,3436,German,South,Europe,-20.3484,57.5522,-6.1659,39.2026
+Feb. 11,Feb. 12,Windhuk,3976,German,South,Dar-es-Salam,-20.3484,57.5522,-6.1659,39.2026
+Feb. 14,Feb. 14,Windhuk ,3576,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Feb. 14,Feb. 18,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Feb. 16,Feb. 16,Pundua,2126,British,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Feb. 17,Feb. 18,Rovuma,55,German,D'Salam,Mombasa,-6.7924,39.2083,-6.1659,39.2026
+Feb. 17,Feb. 18,Praesident,2069,German,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Feb. 17,Mar. 6,Sherard Osborn,875,British,South,Delagoabay,-20.3484,57.5522,-6.1659,39.2026
+Feb. 18,Feb. 18,Markgraf,2228,German,South,Bombay,-20.3484,57.5522,-6.1659,39.2026
+Feb. 19,Feb. 21,Lindula,2183,British,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Feb. 20,Feb. 22,Tuna,259,British,Aden,Benadir,12.7855,45.0187,-6.1659,39.2026
+Feb. 20,Feb. 20,Kronprinz,3558,German,Europe,Dar-es-Salam,48.8566,2.3522,-6.1659,39.2026
+Feb. 21,—,Kilwa,161,British,D'Salam,is still in harbour,-6.7924,39.2083,-6.1659,39.2026
+Feb. 21,—,Cupid ,243,Zanzibar,Pemba,is still in harbour,-5.2452,39.81,-6.1659,39.2026
+Feb. 22,Feb. 23,Kiugani,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Feb. 23,Feb. 23,Oxus,2269,French,Marseilles,Madagascar,43.2965,5.3698,-6.1659,39.2026
+Feb. 24,Feb. 24,Prinzregent,3747,German,South,Dar-es-Salam,-20.3484,57.5522,-6.1659,39.2026
+Feb. 24,Mar. 3,Purnea,2127,British,Aden,Aden,12.7855,45.0187,-6.1659,39.2026
+Mar. 3,Mar. 4,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Mar. 3,Mar. 3,Prinzregent,3697,German,Europe,Dar-es-Salam,48.8566,2.3522,-6.1659,39.2026
+Mar. 3,Mar. 4,Kiugani,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Mar. 4,Mar. 5,Matador,2197,British,Liverpool,Beira,53.4084,-2.9916,-6.1659,39.2026
+Mar. 5,Mar. 8,Kanzler,1840,German,Bombay,Dar-es-Salam,18.9388,72.8354,-6.1659,39.2026
+Mar. 6,Mar. 7,Pentakota,2209,British,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Mar. 6,Mar. 7,Usambura,3329,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Mar. 6,Mar. 7,Prinzessin,3697,German,D'Salam,South,-6.7924,39.2083,-6.1659,39.2026
+Mar. 7,Mar. 11,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Mar. 8,Mar. 10,Tuna,259,British,Mogadisho,Kismayu,2.0469,45.3182,-6.1659,39.2026
+Mar. 10,Mar. 12,Kilwa,161,British,Kismayu,Kismayu,-0.3582,42.5454,-6.1659,39.2026
+Mar. 12,Mar. 13,Kanzler,1840,German,D'Salam,Bombay,-6.7924,39.2083,-6.1659,39.2026
+Mar. 13,Mar. 14,G. Woermann,4018,German,South,Dar-es-Salam,-20.3484,57.5522,-6.1659,39.2026
+Mar. 14,Mar. 18,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Mar. 15,Mar. 16,Gascon,3840,British,London,London,51.5072,-0.1276,-6.1659,39.2026
+Mar. 15,Mar. 15,G. Woermann ,4018,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Mar. 15,Mar. 16,Lindula,2183,British,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Mar. 16,Mar. 16,Djemnah,2251,French,Mauritius,Marseilles,-20.3484,57.5522,-6.1659,39.2026
+Mar. 16,Mar. 17,Kiugani,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Mar. 17,Mar. 18,Koenig,3048,German,Bombay,Durban,18.9388,72.8354,-6.1659,39.2026
+Mar. 17,Mar. 18,Rovuma,55,German,D'Salam,Mombasa,-6.7924,39.2083,-6.1659,39.2026
+Mar. 19,Mar. 21,Pundua,2126,British,Bombay,South,18.9388,72.8354,-6.1659,39.2026
+Mar. 19,Mar. 20,Tuna,259,British,Kismayu,Benadir Coast,-0.3582,42.5454,-6.1659,39.2026
+Mar. 19,Mar. 21,Praesident,2069,German,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Mar. 20,Mar. 21,Carisbrook Castle,4205,British,Durban,London,-29.8587,31.0218,-6.1659,39.2026
+Mar. 20,Mar. 20,Rhenania,4056,German,Europe,Dar-es-Salam,48.8566,2.3522,-6.1659,39.2026
+Mar. 20,Mar. 23,Kilwa,161,British,Kismayu,Comoro Island,-0.3582,42.5454,-6.1659,39.2026
+Mar. 21,Mar. 25,Cupid,243,Zanzibar,Pemba,Pemba,-5.2452,39.81,-6.1659,39.2026
+Mar. 22,Mar. 23,Persian,1724,British,Liverpool,Delagoabay,53.4084,-2.9916,-6.1659,39.2026
+Mar. 22,Mar. 23,Kiugani ,25,German,D'Salam,Dar-es-Salam,-6.7924,39.2083,-6.1659,39.2026
+Mar. 23,Mar. 23,Natal,2450,French,Mauritius,Madagascar,-20.3484,57.5522,-6.1659,39.2026
+Mar. 23,Mar. 24,Rhenania ,4056,German,D'Salam,South,-6.7924,39.2083,-6.1659,39.2026
+Mar. 24,—,Purnea,2127,British,Aden,Still in harbour,12.7855,45.0187,-6.1659,39.2026
+Mar. 25,Mar. 25,Dunvegan Castle,3313,British,London,South,51.5072,-0.1276,-6.1659,39.2026
+Mar. 25,—,Khalifa,300,Zanzibar,Pemba,Still in harbour,-5.2452,39.81,-6.1659,39.2026
+Mar. 25,Mar. 26,Rovuma,55,German,Mombasa,Dar-es-Salam,-4.0435,39.6682,-6.1659,39.2026
+Mar. 27,Mar. 27,Kaiser Wilhelm II,97,German,Kilwa,Dar-es-Salam,-8.9576,39.5169,-6.1659,39.2026
+Mar. 27,Mar. 30,Juno,1385,Dutch,Batoum,Aroebay,41.65,41.6333,-6.1659,39.2026
+Mar. 27,Mar. 29,Tabora,4748,German,South,Dar-es-Salam,-20.3484,57.5522,-6.1659,39.2026
+Mar. 28,Mar. 29,Pentakota,2209,British,Durban,Bombay,-29.8587,31.0218,-6.1659,39.2026
+Mar. 28,—,Cupid,243,Zanzibar,Pemba,Still in harbour,-5.2452,39.81,-6.1659,39.2026
+Mar. 29,Mar. 30,Kommodore,3850,German,Europe,Durban,48.8566,2.3522,-6.1659,39.2026
+Mar. 30,Mar. 30,Tabora ,4748,German,D'Salam,Europe,-6.7924,39.2083,-6.1659,39.2026
+Mar. 30,Mar. 30,Matador,2197,British,Majunga,Liverpool,-15.7167,46.3167,-6.1659,39.2026
