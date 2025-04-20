@@ -110,7 +110,6 @@ Finally, I created two sets of coordinates for each ship entry: one for where th
 | Majunga                | Madagascar                | -15.7167   | 46.3167     |
 | Batoum                 | Georgia (Black Sea)       | 41.6500    | 41.6333     |
 | Aroebay (approx.)      | Indonesia region          | -5.5000    | 132.2500    |
-This is the table with all the coordinates included in them.
 
 
 
