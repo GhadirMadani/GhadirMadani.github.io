@@ -33,6 +33,8 @@ The main columns I included were:
 
 To prepare the data for mapping, I added two more sets of columns: one for the latitude and longitude of the origin port, and another for the destination. These were either manually researched or matched using a reference table I created.
 
+To organize the data more clearly, I split it into two CSV files: one for **ships arriving in Zanzibar** and one for **ships departing from Zanzibar**. For the arrivals file, I recorded the port the ship came from in the “From” column and used Zanzibar’s coordinates (`lat: -6.1659`, `lon: 39.2026`) as the “Bound To” location. For the departures file, I did the opposite — I used Zanzibar’s coordinates as the origin (“From”) and recorded the next port the ship was heading to in the “Bound To” column. This split made it easier to map inbound and outbound traffic separately and helped avoid confusion when visualizing routes. 
+
 In some cases, the Gazette didn’t list a departure or arrival date, or the information was vague — like “still in harbour.” When that happened, I marked those rows as best I could and assumed that “still in harbour” meant the ship was currently in Zanzibar.
 
 I also noticed that some ships, like *Cupid* and *Barawa*, appeared multiple times across different weeks. Rather than combine them, I treated each weekly mention as a separate entry to stay true to the time-based structure of the reports.
