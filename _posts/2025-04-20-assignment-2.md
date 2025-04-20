@@ -39,17 +39,11 @@ In some cases, the Gazette didn’t list a departure or arrival date, or the inf
 
 I also noticed that some ships, like *Cupid* and *Barawa*, appeared multiple times across different weeks. Rather than combine them, I treated each weekly mention as a separate entry to stay true to the time-based structure of the reports.
 
-One of the more challenging parts of modeling the data was dealing with port names that were either historical, vague, or inconsistently spelled. For example, “D'Salam” appeared frequently in the reports, which I interpreted as Dar-es-Salam (modern-day Dar es Salaam, Tanzania). I standardized names like these to their present-day equivalents so I could geocode them accurately.
-
-Some entries referred to broad regions rather than specific ports — like “South” or “Europe.” In these cases, I had to make informed decisions about what location to assign. For “South,” I used coordinates for **Mauritius** , since it appeared to be the central hub for southern Indian Ocean routes in this dataset. For “Europe,” I used **Paris, France**  as a general European reference point, given the lack of specificity.
-
-Other ambiguous entries, like “Benadir Coast,” were matched to **Mogadishu**, which was the main port in that region during the time. “Delagoabay” was mapped to **Maputo Bay** in Mozambique, and “Diamond Island” was matched to its historical location off the coast of Myanmar. All ports were manually researched and matched one by one, based on their colonial or modern names, and then their coordinates were entered into the dataset by hand.
-
 ### 3. Using GenAI Tools
 
 To extract structured data from the OCR-scanned shipping reports, I used a combination of generative AI tools. My goal was to convert the messy text into clean, tabular information with columns like date, ship name, origin, destination, tonnage, and nationality.
 
-### Tools I used:
+#### Tools I used:
 - **ChatGPT-4** 
 - **Perplexity**
 - **Gemini** 
@@ -69,7 +63,55 @@ After some trial and error, I found that the best way to get usable results was 
 
 Even with this prompt, I had to check each result manually. OCR issues like misread dates (e.g., “Jan. 1l” instead of “Jan. 11”) or merged ship names and tonnage were common. Some tools also hallucinated fields that weren’t there. In the end, GenAI helped speed up the extraction, but it still required a lot of human correction to get the data into a clean, usable format.
 
-One thing the AI tools consistently struggled with was understanding shorthand used in the reports — especially the use of quotation marks (") to indicate that a date was the same as the one above. This was a common formatting style in the Gazette, but models like ChatGPT didn’t recognize it as a repetition and would either leave the date blank or misinterpret it. I had to go back through the extracted tables manually and fill in those dates by looking at the previous rows myself.
+### 4. Data Cleaning & Geocoding
+
+Once the data was extracted, I had to go through each row manually to correct OCR errors and fill in missing or misinterpreted values. Some common issues included ship names merging with tonnage numbers, misread dates, or inconsistent spacing. I also corrected cases where a field was left blank due to formatting in the original source — for example, when dates were listed as quotation marks (") to repeat the one above, I manually added the correct date.
+
+After that, I started the geocoding process. For each port listed in the “From” and “Bound To” columns, I looked up its latitude and longitude individually. I didn’t use any automated tools for this part — instead, I created a manual reference list and entered the coordinates by hand. For commonly repeated ports like Bombay, Zanzibar, or Mombasa, this was straightforward. But for more ambiguous entries, I had to make some interpretive decisions.
+
+For example:
+- **“D'Salam”** was standardized to **Dar-es-Salam**
+- **“Benadir Coast”** was mapped to **Mogadishu**
+- **“Delagoabay”** was mapped to **Maputo Bay (Mozambique)**
+- **“Diamond Island”** referred to a small island off Myanmar
+- **“South”** was mapped to **Mauritius** 
+- **“Europe”** was mapped to **Paris, France** 
+Finally, I created two sets of coordinates for each ship entry: one for where the ship came from, and one for where it was going. If a ship was listed as “still in harbour,” I used the coordinates for the Port of Zanzibar ==(lat: `-6.1659`, lon: `39.2026`)== to represent its location.
+
+#### Port Coordinates Reference Table
+
+| Port Name              | Country/Region            | Latitude   | Longitude   |
+|------------------------|---------------------------|------------|-------------|
+| Perim (Mayyun)         | Yemen (Red Sea)           | 12.6497    | 43.4067     |
+| Pemba                  | Tanzania (Zanzibar)       | -5.2452    | 39.8100     |
+| Zanzibar (Unguja)      | Tanzania                  | -6.1659    | 39.2026     |
+| Dar-es-Salam           | Tanzania                  | -6.7924    | 39.2083     |
+| Mombasa                | Kenya                     | -4.0435    | 39.6682     |
+| Aden                   | Yemen (Gulf of Aden)      | 12.7855    | 45.0187     |
+| Bombay (Mumbai)        | India                     | 18.9388    | 72.8354     |
+| London                 | United Kingdom            | 51.5072    | -0.1276     |
+| New York               | United States             | 40.7128    | -74.0060    |
+| Europe (central est.)  | Approx. France            | 48.8566    | 2.3522      |
+| Beira                  | Mozambique                | -19.8360   | 34.8500     |
+| South (unspecified)    | Approx. Mauritius         | -20.3484   | 57.5522     |
+| Marseilles             | France                    | 43.2965    | 5.3698      |
+| Durban                 | South Africa              | -29.8587   | 31.0218     |
+| Tanga                  | Tanzania                  | -5.0689    | 39.1024     |
+| Benadir (Mogadishu)    | Somalia                   | 2.0469     | 45.3182     |
+| Mogalisho              | Somalia                   | 2.0469     | 45.3182     |
+| Kismayu                | Somalia                   | -0.3582    | 42.5454     |
+| Madagascar             | Madagascar (Antananarivo) | -18.8792   | 47.5079     |
+| Liverpool              | United Kingdom            | 53.4084    | -2.9916     |
+| Genoa                  | Italy                     | 44.4056    | 8.9463      |
+| Birkenhead             | United Kingdom            | 53.3925    | -3.0128     |
+| Diamond Island         | Myanmar                   | 16.2843    | 94.6943     |
+| Delagoabay             | Mozambique (Maputo Bay)   | -25.9653   | 32.5832     |
+| Comoro Island          | Comoros                   | -11.6455   | 43.3333     |
+| Majunga                | Madagascar                | -15.7167   | 46.3167     |
+| Batoum                 | Georgia (Black Sea)       | 41.6500    | 41.6333     |
+| Aroebay (approx.)      | Indonesia region          | -5.5000    | 132.2500    |
+This is the table with all the coordinates included in them.
+
 
 
 
