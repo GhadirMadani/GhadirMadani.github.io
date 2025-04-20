@@ -33,7 +33,7 @@ The main columns I included were:
 
 To prepare the data for mapping, I added two more sets of columns: one for the latitude and longitude of the origin port, and another for the destination. These were either manually researched or matched using a reference table I created.
 
-To organize the data more clearly, I split it into two CSV files: one for **ships arriving in Zanzibar** and one for **ships departing from Zanzibar**. For the arrivals file, I recorded the port the ship came from in the “From” column and used Zanzibar’s coordinates (`lat: -6.1659`, `lon: 39.2026`) as the “Bound To” location. For the departures file, I did the opposite — I used Zanzibar’s coordinates as the origin (“From”) and recorded the next port the ship was heading to in the “Bound To” column. This split made it easier to map inbound and outbound traffic separately and helped avoid confusion when visualizing routes. 
+To organize the data more clearly, I split it into two CSV files: one for **ships arriving in Zanzibar** and one for **ships departing from Zanzibar**. For the arrivals file, I recorded the port the ship came from in the “From” column and used Zanzibar’s coordinates  as the “Bound To” location. For the departures file, I did the opposite — I used Zanzibar’s coordinates as the origin (“From”) and recorded the next port the ship was heading to in the “Bound To” column. This split made it easier to map inbound and outbound traffic separately and helped avoid confusion when visualizing routes. 
 
 In some cases, the Gazette didn’t list a departure or arrival date, or the information was vague — like “still in harbour.” When that happened, I marked those rows as best I could and assumed that “still in harbour” meant the ship was currently in Zanzibar.
 
@@ -41,7 +41,35 @@ I also noticed that some ships, like *Cupid* and *Barawa*, appeared multiple tim
 
 One of the more challenging parts of modeling the data was dealing with port names that were either historical, vague, or inconsistently spelled. For example, “D'Salam” appeared frequently in the reports, which I interpreted as Dar-es-Salam (modern-day Dar es Salaam, Tanzania). I standardized names like these to their present-day equivalents so I could geocode them accurately.
 
-Some entries referred to broad regions rather than specific ports — like “South” or “Europe.” In these cases, I had to make informed decisions about what location to assign. For “South,” I used coordinates for **Mauritius** (lat: `-20.3484`, lon: `57.5522`), since it appeared to be the central hub for southern Indian Ocean routes in this dataset. For “Europe,” I used **Paris, France** (lat: `48.8566`, lon: `2.3522`) as a general European reference point, given the lack of specificity.
+Some entries referred to broad regions rather than specific ports — like “South” or “Europe.” In these cases, I had to make informed decisions about what location to assign. For “South,” I used coordinates for **Mauritius** , since it appeared to be the central hub for southern Indian Ocean routes in this dataset. For “Europe,” I used **Paris, France**  as a general European reference point, given the lack of specificity.
 
-Other ambiguous entries, like “Benadir Coast,” were matched to **Mogadishu** (lat: `2.0469`, lon: `45.3182`), which was the main port in that region during the time. “Delagoabay” was mapped to **Maputo Bay** in Mozambique, and “Diamond Island” was matched to its historical location off the coast of Myanmar. All ports were manually researched and matched one by one, based on their colonial or modern names, and then their coordinates were entered into the dataset by hand.
+Other ambiguous entries, like “Benadir Coast,” were matched to **Mogadishu**, which was the main port in that region during the time. “Delagoabay” was mapped to **Maputo Bay** in Mozambique, and “Diamond Island” was matched to its historical location off the coast of Myanmar. All ports were manually researched and matched one by one, based on their colonial or modern names, and then their coordinates were entered into the dataset by hand.
+
+### 3. Using GenAI Tools
+
+To extract structured data from the OCR-scanned shipping reports, I used a combination of generative AI tools. My goal was to convert the messy text into clean, tabular information with columns like date, ship name, origin, destination, tonnage, and nationality.
+
+### Tools I used:
+- **ChatGPT-4** 
+- **Perplexity**
+- **Gemini** 
+- **Claude** 
+- **OCR-generated PDFs and screenshots** from the Zanzibar Gazette
+
+I uploaded cropped images or pasted the OCR text directly into the AI interfaces. The performance of each tool varied; some handled text layout better, while others struggled with dates, indentation, or hallucinated fields that didn’t exist in the original source.
+
+Out of the tools I tried, **ChatGPT-4** gave me the most consistent results. It handled the formatting well, followed my instructions closely, and was easy to work with when I needed to revise prompts. I also tested **Perplexity**, and in some cases it actually did a better job than ChatGPT at correctly separating the rows and extracting the fields — especially when the OCR was messy. However, I felt more comfortable using ChatGPT overall, both because of the interface and the way I could control the structure of the output more easily.
+
+I also experimented with **Gemini** and **Claude**, but they didn’t perform as well. Claude often combined two ships into one row, and Gemini occasionally skipped important fields like departure dates or misread the structure of the report entirely.
+
+After some trial and error, I found that the best way to get usable results was to **work in small sections** and use a very specific prompt. Here’s the one that worked best:
+
+> **Prompt used:**  
+> *You are a data extraction assistant working with OCR-scanned historical documents. Extract the following fields from each entry in the shipping report: Date (Arr.), Date (Dep.), Ship Name, Tons, Nationality, Where From, Bound To. If a field is missing or not clear, leave it blank. Return the data as a clean markdown table with one row per ship.*
+
+Even with this prompt, I had to check each result manually. OCR issues like misread dates (e.g., “Jan. 1l” instead of “Jan. 11”) or merged ship names and tonnage were common. Some tools also hallucinated fields that weren’t there. In the end, GenAI helped speed up the extraction, but it still required a lot of human correction to get the data into a clean, usable format.
+
+One thing the AI tools consistently struggled with was understanding shorthand used in the reports — especially the use of quotation marks (") to indicate that a date was the same as the one above. This was a common formatting style in the Gazette, but models like ChatGPT didn’t recognize it as a repetition and would either leave the date blank or misinterpret it. I had to go back through the extracted tables manually and fill in those dates by looking at the previous rows myself.
+
+
 
