@@ -156,4 +156,9 @@ The full dataset used for this project includes 127 rows of cleaned and geocoded
 **[Click here to view the full dataset for the arricals (CSV)](/assets/assignment2_To.csv)**
 
 
+**Works Cited**
+
+*Provocations from the Humanities for Generative AI Research*. Draft manuscript, 2024. Unpublished.
+
+
 
