@@ -76,7 +76,7 @@ For example:
 - **“Diamond Island”** referred to a small island off Myanmar
 - **“South”** was mapped to **Mauritius** 
 - **“Europe”** was mapped to **Paris, France** 
-Finally, I created two sets of coordinates for each ship entry: one for where the ship came from, and one for where it was going. If a ship was listed as “still in harbour,” I used the coordinates for the Port of Zanzibar ==(lat: `-6.1659`, lon: `39.2026`)== to represent its location.
+Finally, I created two sets of coordinates for each ship entry: one for where the ship came from, and one for where it was going. If a ship was listed as “still in harbour,” I used the coordinates for the Port of Zanzibar to represent its location.
 
 #### Port Coordinates Reference Table
 
@@ -110,6 +110,7 @@ Finally, I created two sets of coordinates for each ship entry: one for where th
 | Majunga                | Madagascar                | -15.7167   | 46.3167     |
 | Batoum                 | Georgia (Black Sea)       | 41.6500    | 41.6333     |
 | Aroebay (approx.)      | Indonesia region          | -5.5000    | 132.2500    |
+
 
 
 
