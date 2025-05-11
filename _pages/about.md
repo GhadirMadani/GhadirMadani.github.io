@@ -27,7 +27,7 @@ Throughout the semester, I also developed a personal digital literacy narrative;
 
 ## Final Reflection
 
-This course taught me that being digitally literate isn’t just about knowing how to use software; it’s about understanding systems, questioning assumptions, and thinking across disciplines. Whether I was mapping colonial histories or analyzing AI-generated image captions, I learned to ask: *Who built this tool? What does it assume? Whose perspective does it center—or ignore?*
+This course taught me that being digitally literate isn’t just about knowing how to use software; it’s about understanding systems, questioning assumptions, and thinking across disciplines. Whether I was mapping colonial histories or analyzing AI-generated image captions, I learned to ask: *Who built this tool? What does it assume? Whose perspective does it center, or ignore?*
 
 Digital Humanities helped me see that data is never neutral, and that digital methods can open up powerful new ways of engaging with the past, present, and future.
 
