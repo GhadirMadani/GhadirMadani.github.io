@@ -6,6 +6,9 @@ categories:
 tags:
   - Jekyll
   - Assignments
+  - Corpus
+  - Distant Viewing
+  - Images
 ---
 
 ## Reading Emirati Heritage through Machines: A Cultural Analysis of Visual AI
