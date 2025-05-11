@@ -6,6 +6,8 @@ categories:
 tags:
   - Jekyll
   - Assignments
+  - Metadata
+  - Spatial
 ---
 
 ## Thick Mapping Zanzibar (January-March 1913): Visualizing Shipping Routes from the Zanzibar Gazette
