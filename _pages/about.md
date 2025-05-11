@@ -3,8 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-# About This Site
-
 Welcome to my Digital Humanities portfolio for Spring 2025. This website brings together the projects and reflections I completed for my *Introduction to Digital Humanities* course. Throughout the semester, we explored how digital tools and computational methods can be used to ask new questions, tell stories, and analyze culture in ways that go beyond traditional approaches.
 
 Digital Humanities isn’t just about using technology; it’s about thinking critically with it. In this course, I experimented with visualizations, data mining, text analysis, and AI tools to better understand how meaning is made, how information is structured, and how cultural narratives are shaped in the digital age.
