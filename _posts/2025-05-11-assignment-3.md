@@ -50,3 +50,21 @@ Some of these clusters made sense. Architectural images like forts and towers na
 
 This made me reflect on something Impett and Offert wrote: *“In reading a corpus of visual culture through a neural network, we are always also doing the reverse.”* In other words, the model isn’t just interpreting my dataset; I’m being influenced by how it sees things too. I started noticing connections I hadn’t thought about before. For example, I realized how often ritual objects share materials or color palettes with everyday ones. The clustering didn’t just sort images; it reshaped how I looked at my own visual archive.
 
+## 4. Categorization and Classification
+
+For the next step, I organized my image corpus into five categories that felt meaningful based on what I knew about the images and the culture they came from. These categories were:  
+**architecture**, **celebration and clothes**, **crafts**, **food**, **hobby and way of living**
+
+Each folder contained a balanced number of images, and I tried to make the categories distinct, but not too narrow. Then, I ran classification using Orange and the InceptionV3 model, followed by a confusion matrix to evaluate the model’s accuracy.
+
+Here’s the result:
+
+<img src="{{site.baseurl}}/assets/images/ConfusionMatrix.png">
+
+The model performed surprisingly well in some areas. It did a great job identifying **architecture** and **celebration and clothes**, and even **hobby and way of living** images were mostly classified correctly. But things got more complicated with categories like **food**, which was often confused with **crafts**.
+
+At first, I thought the misclassifications were just mistakes. But when I looked closer, they actually made some sense. A round woven tray might be used for food but also look like a piece of craft. The model wasn’t entirely wrong—it was picking up on visual cues that blur the lines between how *we* categorize things and how they *appear*.
+
+This reminded me of what Arnold and Tilton talk about in *Distant Viewing*: how models can reveal hidden patterns, but also simplify complex meanings. The confusion matrix didn’t just show where the model failed—it showed where our own human categories are more fluid than we might think. I found myself rethinking some of my own labels. Maybe “way of living” is too broad. In a way, the model pushed me to see my own cultural assumptions more clearly.
+
+
