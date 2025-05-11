@@ -117,5 +117,16 @@ This part of the assignment helped me understand the core risk of machine vision
 
 But this experience also made me more aware of what *is* being seen, and how I can use those gaps to ask better questions about how culture is represented, who builds these systems, and who gets left out.
 
+## 6. Conclusion
+
+This assignment really changed how I think about machine learning and visual culture. At first, I thought I was just testing how well AI tools could recognize images, but what actually happened was more complex. These tools didn’t just analyze the images; they influenced how I saw them too.
+
+Clustering showed me unexpected patterns in my dataset that I hadn’t noticed before. Classification revealed the blurry lines between categories I thought were clear. And the image captions exposed how much meaning gets lost when AI doesn't understand the cultural context behind what it sees.
+
+Working with a dataset rooted in UAE culture made all of this even more visible. These weren’t generic objects or scenes; they were part of a heritage that I’m connected to. Seeing them misread, mislabeled, or flattened by AI reminded me that these systems are not neutral. They’re trained on specific data, shaped by certain assumptions, and they don’t always recognize what matters in other parts of the world.
+
+But in a way, the mistakes were useful too. They helped surface what’s missing, what’s overlooked, and what questions we should be asking as these technologies become more common in art, culture, and everyday life. As Impett and Offert suggest, we’re not just using these systems; we’re being shaped by them. And as *Distant Viewing* points out, computational tools don’t replace human interpretation; they challenge us to think more critically about it.
+
+In the end, this wasn’t just a technical experiment. It was a reflection on perspective, representation, and how machines (and people) make meaning from images.
 
 
