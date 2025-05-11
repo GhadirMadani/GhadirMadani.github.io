@@ -87,11 +87,11 @@ Here are some of the images and the captions they received:
 
 - <img src="{{site.baseurl}}/assets/images/captioning4.png"> 
   *Caption:* “A man dressed in a costume holding a piece of paper.”  
-  → **Reality:** This is a photo of an Emirati bride, in traditional dress and jewelry. The caption is completely wrong—both in gender and interpretation.
+  → **Reality:** This is a photo of an Emirati bride, in traditional dress and jewelry. The caption is completely wrong, both in gender and interpretation.
 
 - <img src="{{site.baseurl}}/assets/images/captioning5.png"> 
   *Caption:* “A person cutting cloth with scissors.”  
-  → **Reality:** It’s a palm-weaving scene—no scissors involved. The model mistook woven material for fabric.
+  → **Reality:** It’s a palm-weaving scene, no scissors involved. The model mistook woven material for fabric.
 
 - <img src="{{site.baseurl}}/assets/images/captioning6.png"> 
   *Caption:* “A small metal pot with a bowl on top.”  
@@ -99,11 +99,11 @@ Here are some of the images and the captions they received:
 
 - <img src="{{site.baseurl}}/assets/images/captioning7.png"> 
   *Caption:* “A man standing on a beach with a bird.”  
-  → **Reality:** This is a falconry scene—an important part of Emirati heritage. The caption is vague and misleading.
+  → **Reality:** This is a falconry scene, an important part of Emirati heritage. The caption is vague and misleading.
 
 - <img src="{{site.baseurl}}/assets/images/captioning8.png"> 
   *Caption:* “People riding brown horses.”  
-  → **Reality:** They’re riding camels. This isn’t just a mistake—it’s a culturally significant one.
+  → **Reality:** They’re riding camels. This isn’t just a mistake; it’s a culturally significant one.
 
 - <img src="{{site.baseurl}}/assets/images/captioning9.png"> 
   *Caption:* “A man in the water with a frisbee.”  
