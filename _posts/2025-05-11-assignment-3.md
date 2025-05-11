@@ -67,4 +67,55 @@ At first, I thought the misclassifications were just mistakes. But when I looked
 
 This reminded me of what Arnold and Tilton talk about in *Distant Viewing*: how models can reveal hidden patterns, but also simplify complex meanings. The confusion matrix didn’t just show where the model failed—it showed where our own human categories are more fluid than we might think. I found myself rethinking some of my own labels. Maybe “way of living” is too broad. In a way, the model pushed me to see my own cultural assumptions more clearly.
 
+## 5. Letting the AI Describe the Culture
+
+For the last part of the assignment, I used the **Image Captioning** tool in DV Explorer to see how the model would describe some of the images from my dataset. I chose a range of visuals—from architecture and crafts to performances and rituals, and waited to see what the model would generate. What I got was a mix of accurate, generic, and completely off-the-mark descriptions.
+
+Here are some of the images and the captions they received:
+
+- <img src="{{site.baseurl}}/assets/images/captioning1.png">
+  *Caption:* “A large white building with a large clock.”  
+  → **Reality:** This is a historic fort. There's no clock at all. The model completely misinterpreted its purpose and structure.
+
+- <img src="{{site.baseurl}}/assets/images/captioning2.png">  
+  *Caption:* “A large group of people dressed in red and white.”  
+  → **Reality:** This was a traditional Emirati yowla performance. The caption reduced it to just clothing colors.
+
+- <img src="{{site.baseurl}}/assets/images/captioning3.png">  
+  *Caption:* “Men in white uniforms.”  
+  → **Reality:** This is a ritual performance, not a military scene. The word "uniform" flattens the cultural meaning.
+
+- <img src="{{site.baseurl}}/assets/images/captioning4.png"> 
+  *Caption:* “A man dressed in a costume holding a piece of paper.”  
+  → **Reality:** This is a photo of an Emirati bride, in traditional dress and jewelry. The caption is completely wrong—both in gender and interpretation.
+
+- <img src="{{site.baseurl}}/assets/images/captioning5.png"> 
+  *Caption:* “A person cutting cloth with scissors.”  
+  → **Reality:** It’s a palm-weaving scene—no scissors involved. The model mistook woven material for fabric.
+
+- <img src="{{site.baseurl}}/assets/images/captioning6.png"> 
+  *Caption:* “A small metal pot with a bowl on top.”  
+  → **Reality:** This is a dallah, a traditional Arabic coffee pot. The model didn’t recognize its cultural significance at all.
+
+- <img src="{{site.baseurl}}/assets/images/captioning7.png"> 
+  *Caption:* “A man standing on a beach with a bird.”  
+  → **Reality:** This is a falconry scene—an important part of Emirati heritage. The caption is vague and misleading.
+
+- <img src="{{site.baseurl}}/assets/images/captioning8.png"> 
+  *Caption:* “People riding brown horses.”  
+  → **Reality:** They’re riding camels. This isn’t just a mistake—it’s a culturally significant one.
+
+- <img src="{{site.baseurl}}/assets/images/captioning9.png"> 
+  *Caption:* “A man in the water with a frisbee.”  
+  → **Reality:** It’s a pearl diver with a traditional basket. The model had no idea what it was seeing.
+
+---
+
+These results were funny at first, but the more I looked at them, the more revealing they became. The captions show just how limited the model’s knowledge is when it comes to culturally specific objects, scenes, or symbols. As Impett and Offert put it, *“reading through a neural network means being read by it in return.”* I expected the model to miss some details, but seeing it reduce a bride to a “man in a costume” or confuse camels for horses was a strong reminder that AI sees through the lens of its training data.
+
+This part of the assignment helped me understand the core risk of machine vision: not just mislabeling, but erasing meaning altogether. As *Distant Viewing* warns, computational models often flatten what they can’t interpret. And if we’re not careful, we might start seeing those flat readings as truth.
+
+But this experience also made me more aware of what *is* being seen, and how I can use those gaps to ask better questions about how culture is represented, who builds these systems, and who gets left out.
+
+
 
