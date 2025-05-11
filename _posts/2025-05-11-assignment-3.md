@@ -32,3 +32,21 @@ My images were loosely organized into categories that reflect both object and ac
 - **Hobby and way of living** 
 
 Even the process of collecting and curating the images felt like part of the analysis. I had to think critically about what “represents” culture, which scenes or objects would visually stand out to a machine, and what kinds of meanings could get lost or misread in translation. It became clear early on that this was not just a technical dataset; it was a narrative about place, identity, and visibility.
+
+## 3. Clustering and Emergent Patterns
+
+After building my dataset, I used Orange Data Mining and the InceptionV3 model to explore how the images would be grouped by a neural network. I ran the image embedding workflow and generated a visual plot that clustered the images based purely on what the model saw—things like shape, color, and texture. It had no understanding of cultural meaning or context, only patterns.
+
+What I found fascinating was how the clustering revealed unexpected groupings. I manually annotated the four quadrants of the image plot based on what I noticed:
+
+<img src="{{site.baseurl}}/assets/images/Clustering.png">
+
+- **Top-left:** Domestic and Culinary Culture
+- **Top-right:** Hand Craft and Tradition
+- **Bottom-left:** Architecture and Transport
+- **Bottom-right:** Social Ceremonies and Dress
+
+Some of these clusters made sense. Architectural images like forts and towers naturally grouped together because they share similar colors and lines. But others were more surprising—like food and craft items ending up in the same area, likely because of their round forms and earthy tones.
+
+This made me reflect on something Impett and Offert wrote: *“In reading a corpus of visual culture through a neural network, we are always also doing the reverse.”* In other words, the model isn’t just interpreting my dataset; I’m being influenced by how it sees things too. I started noticing connections I hadn’t thought about before. For example, I realized how often ritual objects share materials or color palettes with everyday ones. The clustering didn’t just sort images; it reshaped how I looked at my own visual archive.
+
